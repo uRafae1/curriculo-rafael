@@ -29,10 +29,6 @@ Route::get('/resumo', function (){
     return view('resume');
 });
 
-Route::get('/servicos', function (){
-    return view('services');
-});
-
 Route::get('/contato', function (){
     return view('contact');
 });
